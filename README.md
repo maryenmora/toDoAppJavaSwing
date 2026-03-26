@@ -29,6 +29,5 @@ Para mostrar la lista se utilizó un JTable con DefaultTableModel, lo que permit
 - Mostrar las tareas
 - Eliminar una tarea seleccionada
 - Cambiar el estado de una tarea a Completada
-- Validaciones:
-    • Si no hay tarea seleccionada, mostrar mensaje de advertencia
+- Validaciones: Si no hay tarea seleccionada, mostrar mensaje de advertencia
 
