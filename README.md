@@ -11,7 +11,7 @@ almacenan en memoria mientras la aplicación esta en ejecución.
     Main.java
 
 
-## Decisiones técnicas
+## Decisiones técnicas tomadas
 
 Para el desarrollo de la aplicación se utilizó una estructura simple separando responsabilidades:
 
@@ -22,4 +22,13 @@ Para el desarrollo de la aplicación se utilizó una estructura simple separando
 Se decidió usar un ArrayList para almacenar las tareas en memoria
 
 Para mostrar la lista se utilizó un JTable con DefaultTableModel, lo que permite actualizar la tabla fácilmente cuando se agregan, eliminan o cuando cambia de estado una tarea.
+
+## Funcionalidades completadas
+
+- Registro de una tarea
+- Mostrar las tareas
+- Eliminar una tarea seleccionada
+- Cambiar el estado de una tarea a Completada
+- Validaciones:
+    • Si no hay tarea seleccionada, mostrar mensaje de advertencia
 
